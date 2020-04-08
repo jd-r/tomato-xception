@@ -6,8 +6,7 @@ Ten categories from the plant village dataset were used. The unaugmented data co
 - [Original paper](arxiv.org/abs/1511.08060)
 - [Dataset](data.mendeley.com/datasets/tywbtsjrjv/1)
 
-![Table 1](images/table1.jpg)
-
+![Table 1](images/table1.jpg)<br/>
 List of their disease status in the database and the number of images in a particular class.
 
 The main issue is that there are just 373 images of the Tomato Mosaic Virus. So 150 images went to the test set, 150 to val set and the rest to the train set. It was then upsampled using a data augmentation technique to reach 700. The other classes were downsampled to reach the same number of samples in each set.
